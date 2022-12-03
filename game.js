@@ -146,8 +146,11 @@ function restart() {
 
 
 
+
+
+//for responsive viewing
 let width = window.innerWidth;
 
-if(width<800) {
-    $("#level-title").text("Tap to Start");
+if(width<1200) {
+    $(h1).text("Tap to Start");
 }
