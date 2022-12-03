@@ -152,5 +152,5 @@ function restart() {
 let width = window.innerWidth;
 
 if(width<1200) {
-    $(h1).text("Tap to Start");
+    $("#level-title").text("Tap to Start");
 }
