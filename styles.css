@@ -54,24 +54,27 @@ body {
 }
 
 
+
+
 @media only screen and (min-width: 800px) and (max-width: 1120px) {
 
     #level-title {
         font-size: 3rem;
+        margin: 12%;
     }
 
     .container {
         display: block;
-        width: 75%;
+        width: 90%;
         margin: auto;
     }
 
     .btn {
-        margin: 20px;
+        margin: 30px;
         display: inline-block;
         height: 300px;
         width: 300px;
-        border: 8px solid black;
+        border: 10px solid black;
         border-radius: 20%;
     }
 }
@@ -86,7 +89,7 @@ body {
 
     .container {
         display: block;
-        width: 75%;
+        width: 90%;
         margin: auto;
     }
 
